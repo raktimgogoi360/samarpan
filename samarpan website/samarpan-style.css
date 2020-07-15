@@ -1,0 +1,388 @@
+* {
+
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	font-family:sans-serif; 
+	 
+	
+    
+}
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 5; 
+}
+
+.navbar
+{
+	background-color: #8645d1;
+	
+	
+	
+  padding: 0 !important;
+
+
+  
+}
+
+.navbar-brand img 
+{  
+	height: 100px;
+	padding-left: 30px;
+	opacity: 100%;
+}
+
+.navbar-toggler
+{
+	color: white;
+}
+
+.navbar-nav li
+{
+	padding : 0 10px;
+	
+
+
+}
+.navbar-nav li a
+{
+	color: #000 !important;
+font-weight: 400px;	
+font-size: 24px;
+float: right;
+text-align:left; 
+text-decoration: underline ;
+
+
+}
+
+
+.navbar-toggler
+
+{
+	outline: none;
+	border-color: white	;
+	color: white;
+}
+
+
+
+#banner
+{
+	background-image: url(image/wave.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	
+    padding-top: 10%;
+    
+
+}
+.bannner-head
+{
+	font-family: 'Princess Sofia', cursive;
+	font-size: 50px;
+	font-weight:600; 
+	color: #f2ad18;
+	
+	margin-top: 10px;
+	text-decoration: underline;
+	margin-bottom: 5%;
+}
+.banner-tail
+{
+	 font-family: 'Delius Unicase', cursive;
+	font-size:30px;
+	font-weight: 400;
+	color: black;
+	text-decoration:none;
+
+}
+.banner-left-image
+{
+	font-size:30px;
+	font-weight: 400;
+	color: black;
+	text-decoration:none;
+}
+
+.banner-right-image
+{
+	width: 60%;
+	float: left;
+	text-align: center;
+   margin-bottom: 20%;
+	padding-top: 2%;
+
+
+	
+}
+
+.image-draw2
+{
+	width: 100%;
+}
+
+.line
+{
+	
+	width: 100%;
+	padding: 10 10 10 10; 
+	
+	
+}
+.about-us-left-photo
+{
+	padding-top: 60%;
+	padding-bottom: 0%;
+   float: top;
+	width: 80%;
+}
+.about-us-left-text
+{  margin-top: 10px;
+   text-align:left;
+   font-weight: 400px;
+   font-size: 25px;
+
+}
+
+.about-us-right-header
+{
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+.about-us-right-text
+{
+	text-align: left;
+
+	font-size: 25px;
+
+	background-color: #F3F3F3;
+}
+
+.serices-left-photo
+{
+	padding-top: 5%;
+	padding-left: 5%; 
+   float: top;
+	width: 100%;
+}
+.services-left-text
+{  margin-top: 10px;
+   text-align:center;
+   font-weight: 400px;
+   font-size: 20px;
+   
+
+}
+
+.work-head
+{
+	 font-family: 'Delius Unicase', cursive;
+	font-size: 40px;
+	font-weight:400; 
+	color: #1d0d93;
+	margin-top: 10px;
+	text-decoration: underline;
+}
+
+.work-tail
+{
+	
+	 font-family: 'Princess Sofia', cursive;
+	font-size:30px;
+	font-weight: 400;
+	color: #1d0d93;
+	text-decoration:none;
+
+	background-color: #F3F3F3;
+
+}
+
+
+
+
+.counter
+{
+	padding-top: 5%;
+	color: #fff;
+	float: right;
+}
+#our-aim
+{
+	
+    padding-top: 5%;
+}
+.aim	
+{
+	text-align: left;
+	color: blue;background-color: #F3F3F3;
+}
+
+
+#contact-us
+
+{ margin-top: 0px;
+	
+background-image: url(image/hand.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+     background-height :50%;  
+	position: relative;
+
+
+}
+.contact-us
+
+{ margin-top: 0px;
+	
+   color: black;
+
+
+
+}
+
+.map
+{
+	height: 60%;
+	width: 100%;
+}
+
+
+#banner
+{
+	position: relative;
+
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+
+.box div{
+  
+    position: absolute;
+
+   width: 60px;
+   height: 60px;
+   background-color: transparent;
+   border-style: ridge;
+   border-color:  pink;
+
+}
+
+
+.box div:nth-child(1)
+{
+	top:12%;
+	left:42%;
+	animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2)
+{
+	top:70%;
+	left:50%;
+	animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(3)
+{
+	top:17%;
+	left:6%;
+	animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(4)
+{
+	top:20%;
+	left:60%;
+	animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(5)
+{
+	top:67%;
+	left:10%;
+	animation: animate 6s linear infinite;
+}
+.box div:nth-child(6)
+{
+	top:80%;
+	left:70%;
+	animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(7)
+{
+	top:60%;
+	left:80%;
+	animation: animate 15s linear infinite;
+}
+
+.box div:nth-child(8)
+{
+	top:32%;
+	left:25%;
+	animation: animate 16s linear infinite;
+}
+
+.box div:nth-child(9)
+{
+	top:90%;
+	left:75%;
+	animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(10)
+{
+	top:20%;
+	left:80%;
+	animation: animate 5s linear infinite;
+}
+
+
+@keyframes animate{
+  
+   0%{
+   	transform: scale(0) translateY(0px) rotate(0deg);
+     opacity: 1;
+   }
+ 
+ 100%{
+   transform: scale(1.6) translateY(-90px) rotate(360deg);
+     opacity: 0;
+  
+ }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
